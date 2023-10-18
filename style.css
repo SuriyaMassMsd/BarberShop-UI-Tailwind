@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hov{
+  @apply hover:underline underline-offset-8 decoration-2 decoration-black cursor-pointer hover:text-blue-500;
+}
+
+.bor{
+  width: 89%;
+  height: 10%;
+  color: #817655;
+  
+}
